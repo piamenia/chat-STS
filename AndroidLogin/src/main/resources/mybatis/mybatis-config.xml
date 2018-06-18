@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- 매퍼 파일에서 자주 사용하는 패키지이름을 등록해서
+		패키지이름을 생략하고 사용할 수 있도록 하기 위한 설정 -->
+	<typeAliases>
+		<package name="kr.co.login.domain" />
+	</typeAliases>
+</configuration>
